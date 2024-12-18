@@ -1,0 +1,7 @@
+--kubeconfig ./alternative-kubeconfig
+
+for  PODNAME in `kubectl --kubeconfig ./alternative-kubeconfig get pods -l app=nginx -o jsonpath='{.items[*].metadata.name}' `; do
+
+kubectl --kubeconfig ./alternative-kubeconfig exec -it  ${PODNAME} -- cp /etc/hostname /usr/share/nginx/html/index.html;
+
+done

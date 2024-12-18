@@ -1,0 +1,1002 @@
+history -1500
+  436  sudo ntpd -gq
+  437  ntpq -p
+  438  sudo apt -y purge ntp
+  439  sudo apt -y purge ntpdate
+  440  sudo apt -y purge ntpsec-ntpdate
+  441  sudo apt -y install systemd-timesyncd
+  442  vi /etc/systemd/timesyncd.conf 
+  443  timedatectl show
+  444  sudo systemctl daemon-reload
+  445  sudo systemctl restart systemd-timesyncd
+  446  sudo timedatectl set-ntp on
+  447  ufw
+  448  systemctl status firewalld
+  449  systemctl status ufw
+  450  sudo systemctl stop ufw
+  451  sudo systemctl disable ufw
+  452  date
+  453  timedatectl
+  454  timedatectl timesync-status
+  455  journalctl --unit=systemd-timesyncd.servcice
+  456  journalctl --unit=systemd-timesyncd.service
+  457  traceroute 162.159.200.123
+  458  sudo apt -y install traceroute
+  459  traceroute 162.159.200.123
+  460  ping 162.159.200.123
+  461  talosctl -n 192.168.101.11 get timestatus -o yaml
+  462  talosctl cluster destroy
+  463  talosctl cluster destroy --talosconfig=./talosconfig
+  464  vi co
+  465  ls -l
+  466  terraform apply
+  467  vi virtual_machines.tf 
+  468  vi v
+  469  vi variables.tf 
+  470  terraform plan
+  471  ls
+  472  cat main.tf 
+  473  ls -l
+  474  cat virtual_machines.tf 
+  475  vi virtual_machines.tf 
+  476  ls
+  477  vi variables.tf 
+  478  vi providers.tf 
+  479  ls
+  480  ping 192.168.101.1
+  481  ping 192.168.101.11
+  482  traceroute 192.168.101.248
+  483  ip a
+  484  traceroute 192.168.101.11
+  485  ip a
+  486  ping 192.168.101.11
+  487  journalctl --unit=systemd-timesyncd.service
+  488  ping 185.125.190.58
+  489  journalctl --unit=systemd-timesyncd.service
+  490  systemctl restart systemd-timesyncd
+  491  journalctl --unit=systemd-timesyncd.service
+  492  timedatectl timesync-status
+  493  vi variables.tf 
+  494  vi virtual_machines.tf 
+  495  terraform plan
+  496  terraform apply
+  497  ping 10.68.100.30
+  498  sudo tailsclale status
+  499  sudo tailscale status
+  500  sudo tailscale down
+  501  sudo tailscale up --accept-routes
+  502  sudo tailscale status
+  503  ping 10.62.0.253
+  504  ping 10.63.0.253
+  505  ping 10.68.100.30
+  506  terraform apply
+  507  terraform destroy
+  508  ping github.com
+  509  ls
+  510  git clone https://github.com/upa/deadman.git
+  511  traceroute github.com
+  512  ls
+  513  mkdir test
+  514  cd test
+  515  git clone https://github.com/upa/deadman.git
+  516  apt update
+  517  sudo apt update
+  518  cd deadman/
+  519  vi deadman.conf 
+  520  ./deadman deadman.conf 
+  521  tail  /var/log/syslog 
+  522  cd tk-k8s-honban/
+  523  terraform apply
+  524  terraform init
+  525  terraform plan
+  526  source .envrc 
+  527  terraform plan
+  528  terraform apply
+  529  vi files.tf 
+  530  terraform apply
+  531  terraform init
+  532  terraform plan
+  533  q
+  534  vi files.tf 
+  535  terraform init
+  536  terraform plan
+  537  terraform apply
+  538  reboot
+  539  ip a
+  540  ping github.com
+  541  ip route
+  542  git clone https://github.com/upa/deadman
+  543  ls
+  544  ls -l
+  545  rm -rf deadman
+  546  git clone https://github.com/upa/deadman
+  547  ip a
+  548  git
+  549  git clone https://github.com/upa/deadman
+  550  ls -l
+  551  cd deadman/
+  552  vi deadman.conf 
+  553  ./deadman deadman.conf 
+  554  ls -l
+  555  cd tk-k8s-honban/
+  556  ls -l
+  557  vi variables.tf 
+  558  vi virtual_machines.tf 
+  559  terraform plan
+  560  source ./envrc
+  561  ls
+  562  ls -la
+  563  cp ../tk-k8s/.envrc .
+  564  source .envrc 
+  565  terraform plan
+  566  terraform apply
+  567  ping google.com
+  568  terraform init
+  569  terraform apply
+  570  sudo tailscale status
+  571  ls -l
+  572  terraform apply
+  573  terraform destroy
+  574  terraform applt
+  575  terraform apply
+  576  sudo tailscale status
+  577  vi /etc/resolv.conf 
+  578  reboot
+  579  cd tk-k8s-honban/
+  580  source .envrc 
+  581  terraform apply
+  582  vi .envrc 
+  583  source .envrc 
+  584  terraform apply
+  585  cd
+  586  ls
+  587  cd test
+  588  ls
+  589  git clone https://github.com/upa/deadman
+  590  traceroute 1.1.1.1
+  591  traceroute github.com
+  592  git clone https://github.com/upa/deadman
+  593  ip -c a
+  594  GIT_CURL_VERBOSE=1 git clone https://github.com/upa/deadman
+  595  ls -l
+  596  cd deadman/
+  597  ls -l
+  598  cd de.c
+  599  vi deadman.conf 
+  600  git clone https://github.com/upa/deadman
+  601  mkdite lee
+  602  mkdir lee
+  603  cd lee/
+  604  git clone https://github.com/upa/deadman
+  605  ip -c a
+  606  arp -a
+  607  sudo apt -y install net-tools
+  608  arp -a
+  609  ls -l
+  610  rm -rf deadman/
+  611  GIT_CURL_VERBOSE=1 git clone https://github.com/upa/deadman
+  612  ip -c a
+  613  GIT_CURL_VERBOSE=1 git clone https://github.com/upa/deadman
+  614  rm -rf deadman/
+  615  ip -c a
+  616  GIT_CURL_VERBOSE=1 git clone https://github.com/upa/deadman
+  617  ip -c a
+  618  GIT_CURL_VERBOSE=1 git clone https://github.com/upa/deadman
+  619  ip -c a
+  620  GIT_CURL_VERBOSE=1 git clone https://github.com/upa/deadman
+  621  rm -rf deadman/
+  622  ip -c a
+  623  rm -rf deadman/
+  624  GIT_CURL_VERBOSE=1 git clone https://github.com/upa/deadman
+  625  rm -rf deadman/
+  626  GIT_CURL_VERBOSE=1 git clone https://github.com/upa/deadman
+  627  rm -rf deadman/
+  628  ip -c a
+  629  cd ..
+  630  ls
+  631  cd ..
+  632  cd
+  633  rm -rf test
+  634  ls
+  635  cd tk-k8s-honban/k8s-deploy/
+  636  ls -l
+  637  ping talos-cp-01
+  638  talosctl apply-config --insecure -n talos-cp-01 --file controlplane.yaml 
+  639  talosctl apply-config --insecure -n talos-cp-02 --file controlplane.yaml 
+  640  talosctl apply-config --insecure -n talos-cp-03 --file controlplane.yaml 
+  641  talosctl apply-config --insecure -n talos-worker-01 --file worker.yaml
+  642  talosctl apply-config --insecure -n talos-worker-02 --file worker.yaml
+  643  talosctl apply-config --insecure -n talos-worker-03 --file worker.yaml
+  644  talosctl apply-config --insecure -n talos-worker-04 --file worker.yaml
+  645  talosctl apply-config --insecure -n talos-worker-05 --file worker.yaml
+  646  talosctl apply-config --insecure -n talos-worker-06 --file worker.yaml
+  647  talosctl apply-config --insecure -n talos-worker-07 --file worker.yaml
+  648  talosctl apply-config --insecure -n talos-worker-08 --file worker.yaml
+  649  talosctl apply-config --insecure -n talos-worker-09 --file worker.yaml
+  650  talosctl bootstrap --nodes talos-cp-01 --endpoints talos-cp-01 --talosconfig=./talosconfiggit 
+  651  talosctl bootstrap --nodes talos-cp-01 --endpoints talos-cp-01 --talosconfig=./talosconfig
+  652  arp -a
+  653  ping talos-cp-01
+  654  apt -y install nmap
+  655  sudo apt -y install nmap
+  656  nslookup
+  657  ping 1.1.1.1
+  658  ping google.com
+  659  vi /etc/resolv.conf 
+  660  nslookup
+  661  cd tk-k8s-honban/k8s-deploy/
+  662  kubectl --kubeconfig ./alternative-kubeconfig get node -owide
+  663  kubectl --kubeconfig ./alternative-kubeconfig apply -f https://raw.githubusercontent.com/metallb/metallb/v0.10.2/manifests/namespace.yaml
+  664  kubectl --kubeconfig ./alternative-kubeconfig apply -f https://raw.githubusercontent.com/metallb/metallb/v0.10.2/manifests/metallb.yaml
+  665  kubectl --kubeconfig ./alternative-kubeconfig get node -owide
+  666  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+  667  kubectl --kubeconfig ./alternative-kubeconfig logs speaker-7vkg5
+  668  kubectl --kubeconfig ./alternative-kubeconfig -n metallb-system logs speaker-7vkg5
+  669  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+  670  ls
+  671  vi l2pool-metallb.yaml
+  672  kubectl --kubeconfig ./alternative-kubeconfig apply -f l2pool-metallb.yaml
+  673  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+  674  vi nginx-test.yaml
+  675  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-test.yaml 
+  676  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+  677  kubectl --kubeconfig ./alternative-kubeconfig get service -A
+  678  kubectl --kubeconfig ./alternative-kubeconfig get pods 
+  679  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+  680  kubectl --kubeconfig ./alternative-kubeconfig get pods -o wide
+  681  kubectl --kubeconfig ./alternative-kubeconfig get deployment
+  682  kubectl --kubeconfig ./alternative-kubeconfig remove deployment
+  683  kubectl --kubeconfig ./alternative-kubeconfig delete  deployment nginx
+  684  kubectl --kubeconfig ./alternative-kubeconfig delete  deployment nginx-test
+  685  kubectl --kubeconfig ./alternative-kubeconfig get deployment -A
+  686  vi nginx-test.yaml 
+  687  kubectl --kubeconfig ./alternative-kubeconfig delete  deployment nginx
+  688  kubectl --kubeconfig ./alternative-kubeconfig delete  deployment nginx -n default
+  689  kubectl --kubeconfig ./alternative-kubeconfig get deployment -A
+  690  kubectl --kubeconfig ./alternative-kubeconfig delete  deploy nginx -n default
+  691  kubectl --kubeconfig ./alternative-kubeconfig delete deploy ngnix -n default
+  692  kubectl --kubeconfig ./alternative-kubeconfig get deployment -A
+  693  vi nginx-test.yaml 
+  694  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-test.yaml 
+  695  vi nginx-test.yaml 
+  696  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-test.yaml 
+  697  vi nginx-test.yaml 
+  698  kubectl --kubeconfig ./alternative-kubeconfig get deployment -A
+  699  kubectl --kubeconfig ./alternative-kubeconfig get service -A
+  700  ping 192.168.101.150
+  701  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+  702  kubectl --kubeconfig ./alternative-kubeconfig get deployment -A
+  703  kubectl --kubeconfig ./alternative-kubeconfig get service
+  704  kubectl --kubeconfig ./alternative-kubeconfig delete service nginx
+  705  kubectl --kubeconfig ./alternative-kubeconfig get service
+  706  vi nginx-test.yaml 
+  707  vi nginx-only.yaml 
+  708  vi nginx-test.yaml 
+  709  vi nginx-only.yaml 
+  710  vi nginx-test.yaml 
+  711  kubectl --kubeconfig ./alternative-kubeconfig get pods -l app=nginx -o jsonpath='{.items[*].metadata.name}
+  712  kubectl exec -it  ${PODNAME} -- cp /etc/hostname /usr/share/nginx/html/index.html;
+  713  done
+  714  for  PODNAME in `kubectl --kubeconfig ./alternative-kubeconfig get pods -l app=nginx -o jsonpath='{.items[*].metadata.name}' `; do kubectl --kubeconfig ./alternative-kubeconfig exec -it  ${PODNAME} -- cp /etc/hostname /usr/share/nginx/html/index.html; done
+  715  for i in `seq 10` ; do curl -s 192.168.101.150 ;  done
+  716  for i in `seq 20` ; do curl -s 192.168.101.150 ;  done
+  717  kubectl --kubeconfig ./alternative-kubeconfig get pods -o wide
+  718  for i in `seq 10` ; do curl -s 192.168.101.150 ;  done
+  719  kubectl --kubeconfig ./alternative-kubeconfig get service -o wide
+  720  kubectl --kubeconfig ./alternative-kubeconfig get pods -o wide
+  721  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+  722  kubectl --kubeconfig ./alternative-kubeconfig get pods -A -owide
+  723  kubectl --kubeconfig ./alternative-kubeconfig get pods -o wide
+  724  for i in `seq 10` ; do curl -s 192.168.101.150 ;  done
+  725  sudo apt list shellinabox
+  726  cd /etc/default
+  727  ls
+  728  systemctl status shellinabox
+  729  ping 192.168.101.1
+  730  ping 192.168.101.10
+  731  ls -l
+  732  cat 
+  733  cat README.md 
+  734  docker ps
+  735  sudo docker ps
+  736  ls
+  737  cd ..
+  738  ls
+  739  cd deadman-web/
+  740  ls
+  741  cd deadman-web/
+  742  ls
+  743  cd config/
+  744  ls
+  745  vi deadman.conf 
+  746  su
+  747  su 
+  748  ls
+  749  sudo docker ps
+  750  sudo docker restart 8c29176da643
+  751  sudo docker ps
+  752  ls
+  753  cat deadman.conf 
+  754  cd ..
+  755  ls
+  756  cat Docker
+  757  cat Dockerfile 
+  758  ls
+  759  vi docker-entrypoint.sh 
+  760  cd tk-k8s-honban/k8s-deploy/
+  761  ls -l
+  762  for i in `seq 10` ; do curl -s 192.168.101.150 ;  done
+  763  talosctl edit machineconfig --talosconfig=./talosconfig
+  764  ls
+  765  talosctl dashboard --nodes talos-cp-01  --talosconfig=./talosconfig
+  766  talosctl dashboard --nodes talos-cp-02  --talosconfig=./talosconfig
+  767  talosctl
+  768  talosctl --talosconfig=./talosconfig
+  769  talosctl --talosconfig=./talosconfig -e talos-cp-01 -n talos-cp-01 logs kubelet
+  770  talosctl --talosconfig=./talosconfig dashboard --nodes talos-worker-01
+  771  talosctl --talosconfig=./talosconfig dashboard --nodes talos-cp-01
+  772  talosctl --talosconfig=./talosconfig dashboard --nodes talos-cp-01 --endpoints talos-cp-01
+  773  talosctl --talosconfig=./talosconfig dashboard --nodes talos-cp-02 --endpoints talos-cp-01
+  774  talosctl --talosconfig=./talosconfig dashboard --nodes talos-cp-02 --endpoints talos-cp-02
+  775  talosctl --talosconfig=./talosconfig dashboard --nodes talos-cp-03 --endpoints talos-cp-03
+  776  talosctl --talosconfig=./talosconfig edit machineconfig --nodes talos-cp-03 --endpoints talos-cp-03
+  777  cat /tmp/MachineConfigs.config.talos.dev-v1alpha1-edit-3988391338.yaml
+  778  talosctl --talosconfig=./talosconfig edit machineconfig --nodes talos-cp-03 --endpoints talos-cp-03
+  779  kubectl --kubeconfig ./alternative-kubeconfig get pods -o wide
+  780  kubectl --kubeconfig ./alternative-kubeconfig get pod
+  781  kubectl --kubeconfig ./alternative-kubeconfig get pod -o wide
+  782  kubectl --kubeconfig ./alternative-kubeconfig get node
+  783  kubectl --kubeconfig ./alternative-kubeconfig get node -owide
+  784  kubectl --kubeconfig ./alternative-kubeconfig get pod -o wide
+  785  kubelet
+  786  kubectl --kubeconfig ./alternative-kubeconfig get ep
+  787  ls
+  788  cd kube-ops-view/
+  789  vi deploy/rbac.yaml 
+  790  vi deploy/e
+  791  vi deploy/deployment.yaml 
+  792  kubectl --kubeconfig ./alternative-kubeconfig
+  793  kubectl --kubeconfig ../alternative-kubeconfig apply -k deploy
+  794  vi deploy/deployment.yaml 
+  795  vi deploy/redis-service.yaml 
+  796  vi deploy/service.yaml 
+  797  kubectl --kubeconfig ../alternative-kubeconfig apply -k deploy
+  798  kubectl --kubeconfig ../alternative-kubeconfig get service -A
+  799  kubectl --kubeconfig ../alternative-kubeconfig delete pod ngnix-699444497-nktmb
+  800  talosctl bootstrap --nodes talos-cp-02 --endpoints talos-cp-01 --talosconfig=./talosconfig
+  801  talosctl bootstrap --nodes talos-cp-02 --endpoints talos-cp-01 --talosconfig=../talosconf
+  802  curl -k https://192.168.1.11:6443/healthz
+  803  kubectl --kubeconfig ../alternative-kubeconfig get nodes
+  804  ping talos-cp-01
+  805  talosctl --talosconfig=./talosconfig etcd status
+  806  talosctl --talosconfig=./talosconfig etcd status --nodes talos-cp-01
+  807  talosctl --talosconfig=./talosconfig etcd status --nodes talos-cp-01 --endpoints talos-cp-01
+  808  talosctl --talosconfig=./talosconfig etcd status --nodes talos-cp-03 --endpoints talos-cp-03
+  809  talosctl --talosconfig=./talosconfig etcd status --nodes talos-cp-03 --endpoints talos-cp-01
+  810  kubectl --kubeconfig ../alternative-kubeconfig get nodes -A
+  811  kubectl --kubeconfig ../alternative-kubeconfig get nodes -owide
+  812  talosctl --talosconfig=./talosconfig --nodes talos-cp-03 health
+  813  talosctl --talosconfig=./talosconfig --nodes talos-cp-01 health
+  814  talosctl --talosconfig=./talosconfig --nodes talos-cp-01 --endpoints talos-cp-01 health
+  815  talosctl --talosconfig=../talosconfig --nodes talos-cp-01 --endpoints talos-cp-01 health
+  816  talosctl --talosconfig=../talosconfig etcd status --nodes talos-cp-03 --endpoints talos-cp-01
+  817  talosctl --talosconfig=../talosconfig etcd status --nodes talos-cp-01 --endpoints talos-cp-01
+  818  talosctl --talosconfig=../talosconfig etcd status --nodes talos-cp-02 --endpoints talos-cp-01
+  819  talosctl --talosconfig=../talosconfig etcd status --nodes talos-cp-01 --endpoints talos-cp-02
+  820  talosctl --talosconfig=../talosconfig etcd status --nodes talos-cp-01 --endpoints talos-cp-01
+  821  talosctl --talosconfig=../talosconfig etcd status --nodes talos-cp-01 --endpoints talos-cp-02
+  822  talosctl --talosconfig=../talosconfig etcd status --nodes talos-cp-01 --endpoints talos-cp-01
+  823  talosctl --talosconfig=../talosconfig etcd status
+  824  talosctl --talosconfig=../talosconfig etcd status --endpoints talos-cp-01
+  825  talosctl --talosconfig=../talosconfig dmesg --endpoints talos-cp-01 --nodes talos-cp-01
+  826  talosctl --talosconfig=../talosconfig dmesg --endpoints talos-cp-01 --nodes talos-cp-01 -f
+  827  talosctl --talosconfig=../talosconfig dmesg --endpoints talos-cp-01 --nodes talos-cp-02 
+  828  talosctl --talosconfig=../talosconfig dmesg --endpoints talos-cp-02 --nodes talos-cp-02 
+  829  talosctl --talosconfig=../talosconfig service kubelet --endpoints talos-cp-02 --nodes talos-cp-02 
+  830  talosctl --talosconfig=../talosconfig logs --endpoints talos-cp-02 --nodes talos-cp-02 
+  831  talosctl --talosconfig=../talosconfig logs kubelet --endpoints talos-cp-02 --nodes talos-cp-02 
+  832  talosctl --talosconfig=../talosconfig service etcd --endpoints talos-cp-02 --nodes talos-cp-02 
+  833  talosctl --talosconfig=../talosconfig logs kubelet --endpoints talos-cp-02 --nodes talos-cp-02 
+  834  talosctl --talosconfig=../talosconfig logs kubelet --endpoints talos-cp-02 --nodes talos-cp-02 | grep fail
+  835  talosctl --talosconfig=../talosconfig logs kubelet --endpoints talos-cp-02 --nodes talos-cp-02 | grep Fail
+  836  kubectl --kubeconfig ../alternative-kubeconfig -n kube-system get pods -l k8s-app=kube-dns
+  837  kubectl --kubeconfig ../alternative-kubeconfig -n kube-system logs $(kubectl -n kube-system get pods -l k8s-app=kube-dns -o jsonpath='{.items[0].metadata.name}')
+  838  kubectl --kubeconfig ../alternative-kubeconfig logs coredns
+  839  kubectl --kubeconfig ../alternative-kubeconfig logs coredns -n kube-system
+  840  kubectl --kubeconfig ../alternative-kubeconfig logs coredns-68d75fd545-5s529 -n kube-system
+  841  vi /etc/hosts
+  842  sudo vi /etc/hosts
+  843  ping talos-cp
+  844  arp -a
+  845  kubectl --kubeconfig ../alternative-kubeconfig get pods -A
+  846  kubectl --kubeconfig ../alternative-kubeconfig delete pod kube-ops-view-559ccf5d89-tdtw6
+  847  kubectl --kubeconfig ../alternative-kubeconfig get pod -o wode
+  848  kubectl --kubeconfig ../alternative-kubeconfig get pod -o wide
+  849  kubectl --kubeconfig ../alternative-kubeconfig get service
+  850  for i in `seq 10` ; do curl -s 192.168.101.150 ;  done
+  851  kubectl --kubeconfig ../alternative-kubeconfig get service
+  852  kubectl --kubeconfig ../alternative-kubeconfig get pod -A
+  853  kubectl --kubeconfig ../alternative-kubeconfig get service -A
+  854  kubectl --kubeconfig ../alternative-kubeconfig get service -owide
+  855  ping 192.168.101.151
+  856  ping 192.168.101.150
+  857  kubectl --kubeconfig ../alternative-kubeconfig get pod -owode
+  858  kubectl --kubeconfig ../alternative-kubeconfig get pod -owide
+  859  kubectl --kubeconfig ../alternative-kubeconfig logs kube-ops-view-559ccf5d89-klcmh
+  860  talosctl --talosconfig=./talosconfig edit machineconfig --nodes talos-cp-03 --endpoints talos-cp-03
+  861  talosctl --talosconfig=../talosconfig edit machineconfig --nodes talos-cp-03 --endpoints talos-cp-03
+  862  cd ..
+  863  ls
+  864  ls -l
+  865  mkdir k8s-dash
+  866  cd k8s-dash/
+  867  vi admin-user.yaml
+  868  vi ClusterRoleBinding
+  869  wget https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+  870  vi recommended.yaml 
+  871  rm recommended.yaml 
+  872  chmod 700 get_helm.sh
+  873  ./get_helm.sh
+  874  helm
+  875  helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
+  876  helm list -
+  877  helm upgrade --install kubernetes-dashboard kubernet
+  878  helm
+  879  helm upgrade --install kubernetes-dashboard --kubeconfig ../alternative-kubeconfig 
+  880  kubectl --kubeconfig ../alternative-kubeconfig get pod,svc,cm,secret -A -o wide  
+  881  kubectl --kubeconfig ../alternative-kubeconfig apply -f admin-user.yaml 
+  882  kubectl --kubeconfig ../alternative-kubeconfig apply -f ClusterRoleBinding 
+  883  kubectl -n kubernetes-dashboard create token admin-user
+  884  kubectl -n kubernetes-dashboard create token admin-user --kubeconfig ../alternative-kubeconfig
+  885  kubectl --kubeconfig ../alternative-kubeconfig get svc-A -o wide  
+  886  kubectl --kubeconfig ../alternative-kubeconfig get svc -A -o wide  
+  887  kubectl --kubeconfig ../alternative-kubeconfig get pod,svc,cm,secret -A -o wide  
+  888  kubectl --kubeconfig ../alternative-kubeconfig get pod -A -o wide  
+  889  history
+  890  helm status kubernetes-dashboard
+  891  helm status kubernetes-dashboard --kubeconfig ../alternative-kubeconfig 
+  892  helm unsintall kubernetes-dashboard --kubeconfig ../alternative-kubeconfig 
+  893  helm list --kubeconfig ../alternative-kubeconfig 
+  894  helm list --kubeconfig ../alternative-kubeconfig -A
+  895  helm unsintall kubernetes-dashboard --kubeconfig ../alternative-kubeconfig -n kubernetes-dashboard
+  896  helm uninstall kubernetes-dashboard --kubeconfig ../alternative-kubeconfig -n kubernetes-dashboard
+  897  kubectl --kubeconfi ../alternative-kubeconfig get pods -A
+  898  kubectl --kubeconfi ../alternative-kubeconfig get pod 
+  899  kubectl --kubeconfig../alternative-kubeconfig get pod 
+  900  kubectl --kubeconfig ../alternative-kubeconfig get pod 
+  901  kubectl --kubeconfig ../a
+  902  kubectl --kubeconfig ../alternative-kubeconfig apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+  903  ls
+  904  kubectl --kubeconfig ../alternative-kubeconfig apply -f ClusterRoleBinding 
+  905  kubectl --kubeconfig ../alternative-kubeconfig apply -f admin-user.yaml 
+  906  kubectl --kubeconfig ../alternative-kubeconfig -n kubernetes-dashboard create token admin-user
+  907  kubectl --kubeconfig ../alternative-kubeconfig get pods -A
+  908  kubectl --kubeconfig ../alternative-kubeconfig expose pod kubernetes-dashboard-8696f5f494-ndjfq --type=LoadBalancer --port=80 --name=dashboard-nodeport --namespace=kubernetes-dashboard --target-port=8443
+  909  kubectl --kubeconfig ../alternative-kubeconfig get svc -A
+  910  kubectl --kubeconfig ../alternative-kubeconfig expose pod kubernetes-dashboard-8696f5f494-ndjfq --type=LoadBalancer --port=443 --name=dashboard-nodeport --namespace=kubernetes-dashboard --target-port=8443
+  911  kubectl --kubeconfig ../alternative-kubeconfig delete service dashboard-nodeport
+  912  kubectl --kubeconfig ../alternative-kubeconfig delete service kubernetes-dashboard
+  913  kubectl --kubeconfig ../alternative-kubeconfig delete service kubernetes-dashboard -n kubernetes-dashboard
+  914  kubectl --kubeconfig ../alternative-kubeconfig delete service dashboard-nodeport
+  915  kubectl --kubeconfig ../alternative-kubeconfig get svc -A
+  916  kubectl --kubeconfig ../alternative-kubeconfig apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+  917  kubectl --kubeconfig ../alternative-kubeconfig expose pod kubernetes-dashboard-8696f5f494-ndjfq --type=LoadBalancer --port=443 --name=dashboard-nodeport --namespace=kubernetes-dashboard --target-port=8443
+  918  kubectl --kubeconfig ../alternative-kubeconfig delete service dashboard-nodeport
+  919  kubectl --kubeconfig ../alternative-kubeconfig delete service dashboard-nodeport -n kubernetes-dashboard
+  920  kubectl --kubeconfig ../alternative-kubeconfig expose pod kubernetes-dashboard-8696f5f494-ndjfq --type=LoadBalancer --port=443 --name=dashboard-nodeport --namespace=kubernetes-dashboard --target-port=8443
+  921  kubectl --kubeconfig ../alternative-kubeconfig get svc -A
+  922  kubectl --kubeconfig ../alternative-kubeconfig get pod -A
+  923  kubectl --kubeconfig ../alternative-kubeconfig -n kube-system logs  coredns-68d75fd545-5s529
+  924  kubectl --kubeconfig ../alternative-kubeconfig -n kube-system logs  coredns-68d75fd545-cxrdd
+  925  kubectl --kubeconfig ../alternative-kubeconfig cluster info
+  926  kubectl --kubeconfig ../alternative-kubeconfig cluster-info
+  927  kubectl --kubeconfig ../alternative-kubeconfig describe talos-cp-02
+  928  kubectl --kubeconfig ../alternative-kubeconfig describe ndoe talos-cp-02
+  929  kubectl --kubeconfig ../alternative-kubeconfig describe node talos-cp-02
+  930  talosctl --talosconfig=./talosconfig
+  931  cd ..
+  932  l
+  933  ls -l
+  934  talosctl --talosconfig=./talosconfig config endpoint
+  935  talosctl --talosconfig=./talosconfig config endpoint talos-cp-01 talos-cp-02 talos-cp-03
+  936  talosctl --talosconfig=./talosconfig config endpoint -h
+  937  talosctl --talosconfig=./talosconfig 
+  938  talosctl --talosconfig=./talosconfig health
+  939  talosctl --talosconfig=./talosconfig health -n talos-cp-01
+  940  talosctl --talosconfig=./talosconfig health -n talos-cp-02
+  941  talosctl --talosconfig=./talosconfig health -n talos-cp-03
+  942  talosctl --talosconfig=./talosconfig health -n talos-cp-01
+  943  talosctl --talosconfig=./talosconfig list
+  944  talosctl --talosconfig=./talosconfig list -n talos-cp-01
+  945  talosctl --talosconfig=./talosconfig list -n talos-cp-02
+  946  talosctl --talosconfig=./talosconfig list -n talos-cp-03
+  947  talosctl --talosconfig=./talosconfig list -n talos-cp-01 -e talos-cp-02
+  948  talosctl --talosconfig=./talosconfig list -n talos-cp-01 -e talos-cp-03
+  949  talosctl --talosconfig=./talosconfig list -n t
+  950  talosctl --talosconfig=./talosconfig -n talos-cp-01 logs kubelet
+  951  talosctl --talosconfig=./talosconfig -n talos-cp-01 svc kubelet
+  952  talosctl --talosconfig=./talosconfig -n talos-cp-01 sevice kubelet
+  953  talosctl --talosconfig=./talosconfig -n talos-cp-01 service kubelet
+  954  talosctl --talosconfig=./talosconfig -n talos-cp-01 service etcd
+  955  talosctl --talosconfig=./talosconfig -n talos-cp-02 service etcd
+  956  talosctl --talosconfig=./talosconfig -n talos-cp-01 -e talos-cp-02 service etcd
+  957  talosctl --talosconfig=./talosconfig -n talos-cp-02 -e talos-cp-02 service etcd
+  958  talosctl --talosconfig=./talosconfig -n talos-cp-03 -e talos-cp-03 service etcd
+  959  talosctl --talosconfig=./talosconfig -n talos-cp-03 -e talos-cp-03 service kubelet
+  960  talosctl --talosconfig=./talosconfig edit machineconfig --nodes talos-cp-02 --endpoints talos-cp-02
+  961  kubectl --kubeconfig ../alternative-kubeconfig get pods --watch
+  962  kubectl --kubeconfig ./alternative-kubeconfig get pods --watch
+  963  kubectl --kubeconfig ./alternative-kubeconfig get ndoes --watch
+  964  kubectl --kubeconfig ./alternative-kubeconfig get nodes --watch
+  965  kubectl --kubeconfig ./alternative-kubeconfig get pod --watch
+  966  kubectl --kubeconfig ./alternative-kubeconfig logs -n kube-system kube-apiserver-<node-name>
+  967  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+  968  kubectl --kubeconfig ./alternative-kubeconfig logs -n kube-system kube-apiserver-talos-cp-01
+  969  kubectl --kubeconfig ./alternative-kubeconfig logs -n kube-system kube-apiserver-talos-cp-02
+  970  kubectl --kubeconfig ./alternative-kubeconfig logs -n kube-system kube-apiserver-talos-cp-03
+  971  kubectl --kubeconfig ./alternative-kubeconfig logs -n kube-system kube-apiserver-talos-cp-01
+  972  etcdctl
+  973  kubectl --kubeconfig ./alternative-kubeconfig logs -n kube-system kube-apiserver-talos-cp-01 -f
+  974  talosctl --talosconfig=./talosconfig -n talos-cp-03 -e talos-cp-03 service kubelet
+  975  talosctl --talosconfig=./talosconfig -n talos-cp-03 -e talos-cp-03 service etcd
+  976  talosctl --talosconfig=./talosconfig -n talos-cp-03 -e talos-cp-1 service etcd
+  977  talosctl --talosconfig=./talosconfig -n talos-cp-03 -e talos-cp-01 service etcd
+  978  talosctl --talosconfig=./talosconfig -n talos-cp-01 -e talos-cp-01 service etcd
+  979  kubectl --kubeconfig ./alternative-kubeconfig get pods
+  980  kubectl --kubeconfig ./alternative-kubeconfig get nodes
+  981  cd
+  982  \ls
+  983  mkdir /share
+  984  cp alternative-kubeconfig 
+  985  cp alternative-kubeconfig /share/
+  986  chmod 777 /share/alternative-kubeconfig 
+  987  history
+  988  ls -l
+  989  cd ..
+  990  terraform destroy
+  991  source .envrc 
+  992  terraform destroy
+  993  ls
+  994  vi virtual_machines.tf 
+  995  cd k8s-deploy/
+  996  ping 1.1.1.1
+  997  nslookup www.tokyo-skills.jp
+  998  sudo apt -y install nmap
+  999  sudo nmap -sT -p 6443 192.168.101.11
+ 1000  sudo nmap -sT -p 6443 192.168.101.12
+ 1001  sudo nmap -sT -p 6443 192.168.101.13
+ 1002  sudo nmap -sT -p 6443 192.168.101.14
+ 1003  sudo nmap -sT -p 6443 192.168.101.11
+ 1004  talosctl bootstrap --nodes talos-cp-01 --endpoints talos-cp-01 --talosconfig=./talosconfig
+ 1005  talosctl kubeconfig alternative-kubeconfig --nodes talos-cp-01 --endpoints talos-cp-01 --talosconfig=./talosconfig
+ 1006  kubectl --kubeconfig ./alternative-kubeconfig get node -owide
+ 1007  kubectl --kubeconfig ./alternative-kubeconfig get pods
+ 1008  kubectl --kubeconfig ./alternative-kubeconfig get pod
+ 1009  kubectl --kubeconfig ./alternative-kubeconfig get pod -A
+ 1010  talosctl
+ 1011  talosctl list
+ 1012  kubectl --kubeconfig ./alternative-kubeconfig get node -owide
+ 1013  kubectl --kubeconfig ./alternative-kubeconfig get pod -A
+ 1014  kubectl --kubeconfig ./alternative-kubeconfig get node -owide
+ 1015  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1016  douzo
+ 1017  ls -l
+ 1018  vi nginx-only.yaml
+ 1019  vi nginx-
+ 1020  vi nginx-only.yaml 
+ 1021  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1022  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-only.yaml
+ 1023  vi nginx-only.yaml 
+ 1024  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-only.yaml 
+ 1025  vi nginx-only.yaml 
+ 1026  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-only.yaml 
+ 1027  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1028  kubectl --kubeconfig ./alternative-kubeconfig get deploy
+ 1029  kubectl --kubeconfig ./alternative-kubeconfig get deploy -A
+ 1030  kubectl --kubeconfig ./alternative-kubeconfig get service
+ 1031  kubectl --kubeconfig ./alternative-kubeconfig delete service nginx
+ 1032  kubectl --kubeconfig ./alternative-kubeconfig delete deploy
+ 1033  kubectl --kubeconfig ./alternative-kubeconfig get deploy
+ 1034  kubectl --kubeconfig ./alternative-kubeconfig get 
+ 1035  kubectl --kubeconfig ./alternative-kubeconfig get service
+ 1036  kubectl --kubeconfig ./alternative-kubeconfig get service -A
+ 1037  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-only.yaml
+ 1038  kubectl --kubeconfig ./alternative-kubeconfig get service
+ 1039  vi nginx-only.yaml 
+ 1040  ls
+ 1041  ls -l
+ 1042  vi alternative-kubeconfig 
+ 1043  vi talosconfig
+ 1044  vi controlplane.yaml 
+ 1045  vi worker.yaml 
+ 1046  vi l2pool-metallb.yaml 
+ 1047  kubectl --kubeconfig ./alternative-kubeconfig get service
+ 1048  vi nginx-
+ 1049  vi nginx-only.yaml 
+ 1050  kubectl --kubeconfig ./alternative-kubeconfig get pods
+ 1051  kubectl --kubeconfig ./alternative-kubeconfig get pods -owide
+ 1052  ls- l
+ 1053  ls -l
+ 1054  vi controlplane.yaml 
+ 1055  ls -l
+ 1056  vi worker.yaml 
+ 1057  vi talosconfig
+ 1058  vi worker.yaml 
+ 1059  vi controlplane.yaml 
+ 1060  vi worker.yaml 
+ 1061  vi controlplane.yaml 
+ 1062  vi worker.yaml 
+ 1063  vi controlplane.yaml 
+ 1064  vi worker.yaml 
+ 1065  kubectl --kubeconfig ./alternative-kubeconfig get pods -owide
+ 1066  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1067  kubectl --kubeconfig ./alternative-kubeconfig get pods -owide -A
+ 1068  vi worker.yaml 
+ 1069  ls
+ 1070  ls -l
+ 1071  git clone https://codeberg.org/hjacobs/kube-ops-view.git
+ 1072  cd kube-ops-view/
+ 1073  ls -l
+ 1074  vi deploy/kustomization.yaml 
+ 1075  vi deploy/rbac.yaml 
+ 1076  vi deploy/redis-deployment.yaml 
+ 1077  vi deploy/redis-service.yaml 
+ 1078  vi deploy/service.yaml 
+ 1079  vi deploy/kustomization.yaml 
+ 1080  vi deploy/rbac.yaml 
+ 1081  vi deploy/deployment.yaml 
+ 1082  vi deploy/redis-
+ 1083  vi deploy/redis-deployment.yaml 
+ 1084  vi deploy/redis-service.yaml 
+ 1085  vi deploy/deployment.yaml 
+ 1086  vi deploy/service.yaml 
+ 1087  history
+ 1088  kubectl --kubeconfig ./alternative-kubeconfig get pods -owide 
+ 1089  kubectl --kubeconfig ./alternative-kubeconfig get nodes -owide
+ 1090  kubectl --kubeconfig ./alternative-kubeconfig get node -owide
+ 1091  cd ..
+ 1092  kubectl --kubeconfig ./alternative-kubeconfig get node -owide
+ 1093  ls
+ 1094  cat talosconfig
+ 1095  cat talosconfiggit 
+ 1096  rm talosconfiggit 
+ 1097  cat talosconfiggit 
+ 1098  cat talosconfig
+ 1099  cp alternative-kubeconfig ../../
+ 1100  cd
+ 1101  tail -f /var/log/syslog 
+ 1102  sudo docker ps
+ 1103  sudo docker ps -a
+ 1104  sudo docker remove b2c5cd4f238d
+ 1105  sudo docker remove b2c5cd4f238d --force
+ 1106  sudo docker remove bc819d32d145 --force
+ 1107  sudo docker remove 61d905d49e31 --force
+ 1108  sudo docker remove 4f1c678ed83e
+ 1109  sudo docker remove 4eb48ce3f206 --force
+ 1110  sudo docker remove 1f326f86c0b3
+ 1111  sudo docker remove 25ad9db93809
+ 1112  sudo docker remove a39d2b120e0d
+ 1113  sudo docker ps -a
+ 1114  sudo docker logs 8c29176da643
+ 1115  sudo docker exec -it 8c29176da643 bash
+ 1116  sudo docker exec -it 8c29176da643 shell
+ 1117  sudo docker exec -it 8c29176da643 
+ 1118  sudo docker exec -it 8c29176da643 bash
+ 1119  tcpdump tcp
+ 1120  sudo tcpdump
+ 1121  sudo tcpdump tcp
+ 1122  sudo tcpdump http
+ 1123  sudo tcpdump 
+ 1124  sudo tcpdump tcp
+ 1125  sudo docker ps -a
+ 1126  tcpdump tcp
+ 1127  sudo tcpdump tcp
+ 1128  sudo tcpdump tcp -n
+ 1129  ping 192.168.101.245
+ 1130  ping 192.168.101.2
+ 1131  ping 192.168.101.12
+ 1132  ping 192.168.101.17
+ 1133  sudo tcpdump tcp -n
+ 1134  sudo apt install wireshark -y
+ 1135  sudo wireshark
+ 1136  cd
+ 1137  mkdir deadman-web
+ 1138  cd deadman
+ 1139  cd
+ 1140  cd deadman-web/
+ 1141  ls -l
+ 1142  sudo apt -y install apt-transport-https ca-certificates curl gnupg lsb-release
+ 1143  sudo curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ 1144  sudo echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1145  sudo apt update
+ 1146  sudo apt install docker-ce docker-ce-cli containerd.io
+ 1147  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1148  sudo apt update
+ 1149  vi /etc/apt/sources.list.d/docker.list 
+ 1150  sudo vi /etc/apt/sources.list.d/docker.list 
+ 1151  sudo apt update
+ 1152  apt -y install docker.io
+ 1153  sudo apt -y install docker.io
+ 1154  apt -y install docker-compose
+ 1155  sudo apt -y install docker-compose
+ 1156  git clone https://github.com/cfra/deadman-web.git
+ 1157  ls -l
+ 1158  cd deadman-web/
+ 1159  ls -l
+ 1160  docker run -d
+ 1161  docker run
+ 1162  vi docker
+ 1163  vi docker-entrypoint.sh 
+ 1164  ci Docker
+ 1165  vi Docker
+ 1166  vi Dockerfile 
+ 1167  docker build
+ 1168  docker build .
+ 1169  sudo docker build .
+ 1170  docker image ls
+ 1171  sudo docker image ls
+ 1172  sudo docker build . -t deadman-web:latest
+ 1173  sudo docker image ls
+ 1174  sudo docker run -it deadman-web
+ 1175  docker run -it deadman-web
+ 1176  sudo docker run -it deadman-web
+ 1177  sudo docker ps
+ 1178  sudo docker logs
+ 1179  sudo docker ps -a
+ 1180  sudo docker remove 3548de091fff.
+ 1181  sudo docker remove 3548de091fff
+ 1182  sudo docker ps -a
+ 1183  sudo docker logs a39d2b120e0d
+ 1184  sudo docker logs deadman-web
+ 1185  sudo docker logs heuristic_saha
+ 1186  sudo docker logs deadman-web
+ 1187  sudo docker logs a39d2b120e0d
+ 1188  sudo docker run -it deadman-web
+ 1189  sudo docker ps -a
+ 1190  sudo docker logs 25ad9db93809
+ 1191  sudo docker run -it deadman-web -d
+ 1192  sudo docker run -it deadman-web
+ 1193  sudo docker run -it deadman-web -p 8080:4100
+ 1194  sudo docker run -p 8080:4100 -it deadman-web
+ 1195  sudo docker run -p 8080:4200 -it deadman-web
+ 1196  sudo docker run -d -p 8080:4200 -it deadman-web
+ 1197  ls
+ 1198  vi config/deadman.conf 
+ 1199  sudo docker run -p 8080:4200
+ 1200  sudo docker run -p 8080:4200 .
+ 1201  sudo docker run -p 8080:4200 test
+ 1202  sudo docker run -p 8080:4200 deadman-web
+ 1203  sudo docker build . -t deadman-web:latest
+ 1204  vi Dockerfile 
+ 1205  sudo docker build . -t deadman-web:latest
+ 1206  sudo docker run -p 8080:4200 deadman-web
+ 1207  vi config/deadman.conf 
+ 1208  sudo docker build . -t deadman-web:latest
+ 1209  sudo docker run -p 8080:4200 deadman-web
+ 1210  vi config/deadman.conf 
+ 1211  sudo docker build . -t deadman-web:latest
+ 1212  sudo docker run -p 8080:4200 deadman-web
+ 1213  vi config/deadman.conf 
+ 1214  sudo docker build . -t deadman-web:latest
+ 1215  sudo docker run -p 8080:4200 deadman-web
+ 1216  vi config/deadman.conf 
+ 1217  sudo docker build . -t deadman-web:latest
+ 1218  sudo docker run -p 8080:4200 deadman-web
+ 1219  ls
+ 1220  docker list image
+ 1221  docker image list
+ 1222  sudo docker image list
+ 1223  sudo docker ps
+ 1224  cd deadman/
+ 1225  vi deadman.conf 
+ 1226  ./deadman deadman.conf 
+ 1227  vi deadman
+ 1228  vi deadman.conf 
+ 1229  vi deadman
+ 1230  ./deadman deadman.conf 
+ 1231  vi deadman.conf 
+ 1232  ./deadman deadman.conf 
+ 1233  vi deadman.conf 
+ 1234  ./deadman deadman.conf 
+ 1235  sudo tailscale status
+ 1236  sudo tailscale ping lpve
+ 1237  ./deadman deadman.conf 
+ 1238  cd tk-k8s-honban/
+ 1239  ls -l
+ 1240  source .envrc 
+ 1241  terraform init
+ 1242  terraform plan
+ 1243  terraform apply
+ 1244  vi .envrc 
+ 1245  terraform apply
+ 1246  soure .envrc 
+ 1247  source .envrc 
+ 1248  terraform apply
+ 1249  ls -l
+ 1250  cd k8s-deploy/
+ 1251  talosctl apply-config --insecure -n talos-cp-02 --file controlplane.yaml 
+ 1252  talosctl apply-config --insecure -n talos-worker-04 --file=worker.yaml
+ 1253  vi worker.yaml 
+ 1254  talosctl apply-config --insecure -n talos-worker-04 --file=worker.yaml
+ 1255  talosctl apply-config --insecure -n talos-worker-05 --file=worker.yaml
+ 1256  talosctl apply-config --insecure -n talos-worker-06 --file=worker.yaml
+ 1257  talosctl bootstrap --nodes talos-cp-02 --endpoints talos-cp-02 --talosconfig=./talosconfig
+ 1258  talosctl kubeconfig alternative-kubeconfig --nodes talos-cp-02 --endpoints talos-cp-02 --talosconfig=./talosconfig
+ 1259  ls -l
+ 1260  kubectl --kubeconfig ./alternative-kubeconfig get node -owide
+ 1261  cd ..
+ 1262  terraform destroy
+ 1263  terraform init
+ 1264  vi .envrc 
+ 1265  systemct
+ 1266  timedatectl timesync-status
+ 1267  ip route
+ 1268  journalctl --unit=systemd-timesyncd.service
+ 1269  ls
+ 1270  vi variables.tf 
+ 1271  vi main.tf 
+ 1272  ls
+ 1273  vi virtual_machines.tf 
+ 1274  terraform init
+ 1275  terraform plan
+ 1276  terraform apply
+ 1277  vi virtual_machines.tf 
+ 1278  cd tk-k8s-honban-test/
+ 1279  ls -l
+ 1280  cd k8s-deploy/
+ 1281  vi controlplane.yaml 
+ 1282  vi worker.yaml 
+ 1283  vi controlplane.yaml 
+ 1284  vi worker.yaml 
+ 1285  vi controlplane.yaml 
+ 1286  talosctl apply-config --insecure -n talos-cp-01 --file controlplane.yaml 
+ 1287  vi controlplane.yaml 
+ 1288  talosctl apply-config --insecure -n talos-cp-01 --file controlplane.yaml 
+ 1289  vi controlplane.yaml 
+ 1290  talosctl apply-config --insecure -n talos-cp-01 --file controlplane.yaml 
+ 1291  talosctl apply-config --insecure -n talos-cp-02 --file controlplane.yaml 
+ 1292  talosctl apply-config --insecure -n talos-cp-03 --file controlplane.yaml 
+ 1293  talosctl bootstrap --nodes talos-cp-01 --talosconfig=./talosconfig
+ 1294  talosctl bootstrap --nodes talos-cp-02 --talosconfig=./talosconfig
+ 1295  talosctl bootstrap --nodes talos-cp-02 --endpoints talos-cp --talosconfig=./talosconfig
+ 1296  vi /etc/hosts
+ 1297  talosctl bootstrap --nodes talos-cp-02 --endpoints talos-cp --talosconfig=./talosconfig
+ 1298  talosctl bootstrap --nodes talos-cp-01 --endpoints talos-cp --talosconfig=./talosconfig
+ 1299  talosctl bootstrap --nodes talos-cp-01 --endpoints talos-cp-01 --talosconfig=./talosconfig
+ 1300  talosctl bootstrap --nodes talos-cp-01 --endpoints talos-cp-02 --talosconfig=./talosconfig
+ 1301  talosctl bootstrap --nodes talos-cp-02 --endpoints talos-cp-02 --talosconfig=./talosconfig
+ 1302  talosctl apply-config --insecure -n talos-worker-02 --file worker.yaml
+ 1303  talosctl apply-config --insecure -n talos-worker-03 --file worker.yaml
+ 1304  talosctl apply-config --insecure -n talos-worker-04 --file worker.yaml
+ 1305  talosctl apply-config --insecure -n talos-worker-05 --file worker.yaml
+ 1306  talosctl apply-config --insecure -n talos-worker-06 --file worker.yaml
+ 1307  talosctl apply-config --insecure -n talos-worker-07 --file worker.yaml
+ 1308  talosctl apply-config --insecure -n talos-worker-08 --file worker.yaml
+ 1309  talosctl apply-config --insecure -n talos-worker-09 --file worker.yaml
+ 1310  talosctl kubeconfig alternative-kubeconfig --nodes talos-cp-01 --endpoints talos-cp-01 --talosconfig=./talosconfig
+ 1311  talosctl kubeconfig alternative-kubeconfig --nodes talos-cp-01,talos-cp-02,talos-cp-03 --endpoints talos-cp --talosconfig=./talosconfig
+ 1312  talosctl kubeconfig alternative-kubeconfig --nodes talos-cp-01 --nodes talos-cp-02 --nodes talos-cp-03  --endpoints talos-cp --talosconfig=./talosconfig
+ 1313  talosctl kubeconfig alternative-kubeconfig --cluster talos-cp --talosconfig=./talosconfig
+ 1314  talosctl kubeconfig alternative-kubeconfig --nodes talos-cp --talosconfig=./talosconfig
+ 1315  talosctl kubeconfig alternative-kubeconfig --endpoints talos-cp --talosconfig=./talosconfig
+ 1316  talosctl kubeconfig alternative-kubeconfig --endpoints talos-cp --talosconfig=./talosconfigtalosctl --talosconfig=./talosconfig config endpoint 192.168.101.10
+ 1317  talosctl --talosconfig=./talosconfig config endpoint 192.168.101.10
+ 1318  talosctl kubeconfig alternative-kubeconfig --endpoints 192.168.101.10  --talosconfig=./talosconfig
+ 1319  talosctl kubeconfig alternative-kubeconfig --nodes talos-cp --talosconfig=./talosconfig
+ 1320  ping 192.168.101.10
+ 1321  talosctl health --nodes talos-cp --talosconfig=./talosconfig
+ 1322  talosctl health --nodes talos-cp-01 --talosconfig=./talosconfig
+ 1323  talosctl health --nodes talos-cp-02 --talosconfig=./talosconfig
+ 1324  talosctl health --nodes talos-cp-02 --endpoints talos-cp-02--talosconfig=./talosconfig
+ 1325  talosctl health --nodes talos-cp-02 --endpoints talos-cp-02 --talosconfig=./talosconfig
+ 1326  kubectl --kubeconfig ./alternative-kubeconfig get pods
+ 1327  talosctl --talosconfig=./talosconfig config endpoint 192.168.101.11,192.168.101.12
+ 1328  talosctl --talosconfig=./talosconfig config endpoint 192.168.101.11,192.168.101.12,192.168.101.13
+ 1329  kubectl --kubeconfig ./alternative-kubeconfig get pods
+ 1330  talosctl kubeconfig alternative-kubeconfig --endpoints talos-cp-02 --nodes talos-cp-02  --talosconfig=./talosconfig
+ 1331  o
+ 1332  kubectl --kubeconfig ./alternative-kubeconfig get pods
+ 1333  ls
+ 1334  vi controlplane.yaml 
+ 1335  ls -l
+ 1336  vi controlplane.yaml 
+ 1337  vi worker.yaml 
+ 1338  talosctl apply-config --insecure --nodes talos-cp-01 --file controlplane.yaml 
+ 1339  ls -l
+ 1340  cat talosconfig 
+ 1341  talosctl apply-config --insecure --nodes talos-cp-01 --file controlplane.yaml 
+ 1342  talosctl apply-config --insecure --nodes talos-cp-02 --file controlplane.yaml 
+ 1343  talosctl apply-config --insecure --nodes talos-cp-03 --file controlplane.yaml 
+ 1344  talosctl apply-config --insecure --nodes talos-worker-01 --file worker.yaml 
+ 1345  talosctl apply-config --insecure --nodes talos-worker-02 --file worker.yaml 
+ 1346  talosctl apply-config --insecure --nodes talos-worker-03 --file worker.yaml 
+ 1347  talosctl apply-config --insecure --nodes talos-worker-04 --file worker.yaml 
+ 1348  talosctl apply-config --insecure --nodes talos-worker-05 --file worker.yaml 
+ 1349  talosctl apply-config --insecure --nodes talos-worker-06 --file worker.yaml 
+ 1350  talosctl apply-config --insecure --nodes talos-worker-07 --file worker.yaml 
+ 1351  talosctl apply-config --insecure --nodes talos-worker-08 --file worker.yaml 
+ 1352  talosctl apply-config --insecure --nodes talos-worker-09 --file worker.yaml 
+ 1353  talosctl config endpoint talos-cp-01 talos-cp-02 talos-cp-03 --talosconfig=./talosconfig
+ 1354  talosctl config node talos-cp-01 talos-cp-02 talos-cp-03 --talosconfig=./talosconfig
+ 1355  talosctl bootstrap --talosconfig=./talosconfig
+ 1356  talosctl bootstrap --nodes talos-cp-01 --talosconfig=./talosconfig
+ 1357  talosctl kubeconfig alternative-kubeconfig --nodes talos-cp-01 --talosconfig=./talosconfig
+ 1358  kubectl --kubeconfig ./alternative-kubeconfig get pods
+ 1359  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1360  kubectl --kubeconfig ./alternative-kubeconfig get nodes -owide
+ 1361  vi alternative-kubeconfig 
+ 1362  kubectl --kubeconfig ./alternative-kubeconfig get nodes -owide
+ 1363  kubectl --kubeconfig ./alternative-kubeconfig 
+ 1364  kubectl --kubeconfig ./alternative-kubeconfig get nodes -owide
+ 1365  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1366  kubectl --kubeconfig ./alternative-kubeconfig get pods 
+ 1367  vi alternative-kubeconfig 
+ 1368  kubectl --kubeconfig ./alternative-kubeconfig get pods 
+ 1369  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1370  vi alternative-kubeconfig 
+ 1371  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1372  vi alternative-kubeconfig 
+ 1373  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1374  vi alternative-kubeconfig 
+ 1375  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1376  ls
+ 1377  cp /home/kiri/tk-k8s-honban/k8s-deploy/nginx-test.yaml .
+ 1378  cp /home/kiri/tk-k8s-honban/k8s-deploy/nginx-only.yaml .
+ 1379* cp /home/kiri/tk-k8s-honban/k8s-deploy/ 
+ 1380  ls -l
+ 1381  ls
+ 1382  kubectl --kubeconfig ./alternative-kubeconfig apply -f https://raw.githubusercontent.com/metallb/metallb/v0.10.2/manifests/namespace.yaml
+ 1383  kubectl --kubeconfig ./alternative-kubeconfig apply -f https://raw.githubusercontent.com/metallb/metallb/v0.10.2/manifests/metallb.yaml
+ 1384  kubectl --kubeconfig ./alternative-kubeconfig get pods
+ 1385  kubectl --kubeconfig ./alternative-kubeconfig get pods -A
+ 1386  kubectl --kubeconfig ./alternative-kubeconfig get pods -n metallb-system
+ 1387  kubectl --kubeconfig ./alternative-kubeconfig get node
+ 1388  kubectl --kubeconfig ./alternative-kubeconfig get node -o wide
+ 1389  kubectl --kubeconfig ./alternative-kubeconfig get pod -o wide
+ 1390  kubectl --kubeconfig ./alternative-kubeconfig get pod -o wide -n metallb-system
+ 1391  vi l2pool-metallb.yaml 
+ 1392  kubectl --kubeconfig ./alternative-kubeconfig apply -f l2pool-metallb.yaml 
+ 1393  kubectl --kubeconfig ./alternative-kubeconfig get pod -o wide -n metallb-system
+ 1394  ls -l
+ 1395  vi nginx-test.yaml 
+ 1396  vi nginx-only.yaml 
+ 1397  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-only.yaml 
+ 1398  vi nginx-only.yaml 
+ 1399  kubectl --kubeconfig ./alternative-kubeconfig get pod -o wide 
+ 1400  kubectl --kubeconfig ./alternative-kubeconfig get svc
+ 1401  for  PODNAME in `kubectl get pods -l app=nginx -o jsonpath='{.items[*].metadata.name}' `; do kubectl exec -it  ${PODNAME} -- cp /etc/hostname /usr/share/nginx/html/index.html; done
+ 1402  for  PODNAME in `kubectl --kubeconfig ./alternative-kubeconfig get pods -l app=nginx -o jsonpath='{.items[*].metadata.name}' `; do kubectl --kubeconfig ./alternative-kubeconfig exec -it  ${PODNAME} -- cp /etc/hostname /usr/share/nginx/html/index.html; done
+ 1403  for i in `seq 10` ; do curl -s 192.168.101.150 ;  done
+ 1404  for i in `seq 20` ; do curl -s 192.168.101.150 ;  done
+ 1405  kubectl --kubeconfig ./alternative-kubeconfig get pod -o wide 
+ 1406  vi alternative-kubeconfig 
+ 1407  kubectl --kubeconfig ./alternative-kubeconfig get nodes -o wide
+ 1408  kubectl --kubeconfig ./alternative-kubeconfig get nodes 
+ 1409  vi alternative-kubeconfig 
+ 1410  kubectl --kubeconfig ./alternative-kubeconfig get nodes 
+ 1411  vi alternative-kubeconfig 
+ 1412  kubectl --kubeconfig ./alternative-kubeconfig get nodes 
+ 1413  vi alternative-kubeconfig 
+ 1414  git clone https://codeberg.org/hjacobs/kube-ops-view.git
+ 1415  cd kube-ops-view/
+ 1416  ls -l
+ 1417  vi deploy/redis-service.yaml 
+ 1418  vi deploy/deployment.yaml 
+ 1419  kubectl --kubeconfig ./alternative-kubeconfig apply -k deploy
+ 1420  kubectl --kubeconfig ../alternative-kubeconfig apply -k deploy
+ 1421  history 1000
+ 1422  history 1000 | grep expose
+ 1423  vi deploy/service.yaml 
+ 1424  vi deploy/redis-service.yaml 
+ 1425  kubectl --kubeconfig ../alternative-kubeconfig apply -k deploy
+ 1426  kubectl --kubeconfig ../alternative-kubeconfig get svc
+ 1427  cd ..
+ 1428  vi nginx-only.yaml 
+ 1429  kubectl --kubeconfig ../alternative-kubeconfig apply -f nginx-only.yaml 
+ 1430  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-only.yaml 
+ 1431  vi nginx-only.yaml 
+ 1432  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-only.yaml 
+ 1433  vi nginx-only.yaml 
+ 1434  kubectl --kubeconfig ./alternative-kubeconfig apply -f nginx-only.yaml 
+ 1435  history 1500
+kiri@mgmt-Zorin:~/tk-k8s-honban-test/k8s-deploy$ 
